@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Firefox browser is lauched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Click on : link_signup]]>
+    </line>
+    <line>
+      <![CDATA[Type : Mahaboob123 in F_Name textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Type : Shaik in S_Name textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Type : Mahaboob123 in E_mail textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Type : basha786 in P_word textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Select : AU in M_Code dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Type : 7989965578 in Mobile_No textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Select : 7 in Month_No dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Type : 22 in Day_D textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Type : 1992 in Year_Y textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Type : Male in Gender_G textbox  ]]>
+    </line>
+    <line>
+      <![CDATA[Click on : B_Continue]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45116" started-at="2018-06-26T11:40:56Z" finished-at="2018-06-26T11:41:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45116" started-at="2018-06-26T11:40:56Z" finished-at="2018-06-26T11:41:41Z">
+      <class name="com.testcases.TestCases">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.testcases.TestCases@4f4a7090]" name="Start" is-config="true" duration-ms="14667" started-at="2018-06-26T11:40:56Z" finished-at="2018-06-26T11:41:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox browser is lauched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="FormPreviewTc()[pri:0, instance:com.testcases.TestCases@4f4a7090]" name="FormPreviewTc" duration-ms="30425" started-at="2018-06-26T11:41:10Z" finished-at="2018-06-26T11:41:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on : link_signup]]>
+            </line>
+            <line>
+              <![CDATA[Type : Mahaboob123 in F_Name textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Type : Shaik in S_Name textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Type : Mahaboob123 in E_mail textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Type : basha786 in P_word textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Select : AU in M_Code dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Type : 7989965578 in Mobile_No textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Select : 7 in Month_No dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Type : 22 in Day_D textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Type : 1992 in Year_Y textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Type : Male in Gender_G textbox  ]]>
+            </line>
+            <line>
+              <![CDATA[Click on : B_Continue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FormPreviewTc -->
+        <test-method status="PASS" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@4f4a7090]" name="onTestFailure" is-config="true" duration-ms="1" started-at="2018-06-26T11:41:41Z" finished-at="2018-06-26T11:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FormPreviewTc status=SUCCESS method=TestCases.FormPreviewTc()[pri:0, instance:com.testcases.TestCases@4f4a7090] output=Click on : link_signup]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+      </class> <!-- com.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+     
+   <test name="Test">
+    <classes>
+      <class name="com.testcases.TestCases">
+        <methods>
+        <include name="examineeTc"/>
+      	<include name="navigateToExamineeFormTabsTc"/>
+        <include name="ExamineeHeaderSectionTc"/>
+        <include name="ExamineeButtonsTc"/> 
+       	<include name="decAddDBQTc"/> 
+       	<include name="decExamNoteTc"/> 
+       	<include name="decNavigateFormAndSection"/> 
+       	<include name="decSaveAddFormTc"/>
+      	<include name="decDeleteAddFormsTc"/>
+        <include name="decHeaderSectionTc"/>
+        <include name="decRoleButtonsTc"/> 
+       	<include name="ProviderFormSaveTc"/> 
+       	<include name="ImoFormSaveTc"/> 
+       	<include name="ManualAddDBQTc"/> 
+       	<include name="HeaderSectionTc"/> 
+       	<include name="NavigateToFormTabsTc"/> 
+       	<include name="ExamNotesTc"/> 
+       	<include name="ESignatureTc"/> 
+       	<include name="ExambuttonsTc"/>
+      	<include name="scribeAddDBQTc"/>
+        <include name="scribeExamNoteTc"/>
+        <include name="scribeCollabViewTc"/> 
+       	<include name="scribeNavigateFormAndSectionTc"/> 
+       	<include name="scribeHeaderSectionTc"/> 
+       	<include name="scribeRoleButtonsTc"/> 
+       	<include name="addTriggerwithValidationTc"/> 
+       	<include name="qaExamNotesTc"/> 
+       	<include name="qaCollabViewTc"/> 
+       	<include name="qaHeaderSectionTc"/> 
+       	<include name="qaRoleButtonsTc"/> 
+       	<include name="ProviderClarifyQuestionTc"/>  
+        </methods>
+      </class>
+    </classes>
+  </test> 
+    
+  <!-- <listeners>
+   <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+  <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners> -->
+</suite> <!-- Suite -->
+
+
+
+
+ 

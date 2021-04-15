@@ -1,0 +1,1472 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 06 12:15:48 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1674 seconds (1674142 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.TestCases.ESignatureTc()'><b>ESignatureTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1045731788" onClick='toggleBox("Output-1045731788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1045731788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1045731788">
+Click on : click_SignAndSubmit_button<br/>
+Click on : Click_button_Clear<br/>
+Click on : Click_button_Cancel<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Select_Checkbox_ConfirmOption<br/>
+Click on : Click_button_Confirm<br/>
+Click on : checkout_button<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Select_text_Option<br/>
+Select : Courgette in DropDown_Signature_type dropdown list<br/>
+Type : Tester in Signature_Name textbox  <br/>
+Click on : Click_button_Preview<br/>
+Click on : Select_Checkbox_ConfirmOption<br/>
+Click on : Click_button_Confirm<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ExamNotesTc()'><b>ExamNotesTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-864221358" onClick='toggleBox("Output-864221358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864221358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864221358">
+Click on : Click_Add Notes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add Notes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Expand_ExamNotesLink<br/>
+Click on : Click_AddNotes2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_AddNotes2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Click_NotesLink1<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_NotesLink2<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_UncheckNotes1<br/>
+Click on : Click_UncheckNotes2<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ExambuttonsTc()'><b>ExambuttonsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-519303080" onClick='toggleBox("Output-519303080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-519303080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-519303080">
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:Provider In Progress<br/>
+Click on : Click Save Button<br/>
+Form Saved successfully<br/>
+Click on : Click Diag Pending Button<br/>
+status changed successfully<br/>
+status:Provider In Progress - Diag Pending<br/>
+Click on : Click send to scribe Button<br/>
+status changed successfully<br/>
+status:Pending Scribe<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamAllForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click AllHistoryForms print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQAllForm print<br/>
+</div>
+</td>
+<td></td>
+<td>112</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ExamineeButtonsTc()'><b>ExamineeButtonsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1819940427" onClick='toggleBox("Output-1819940427", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1819940427" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1819940427">
+status changed successfully<br/>
+status:Examinee In Progress<br/>
+Click on : Click Save Button<br/>
+Form Saved successfully<br/>
+Click on : Click on Submit button<br/>
+Form Saved successfully<br/>
+status:Examinee Complete<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamAllForm print<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ExamineeHeaderSectionTc()'><b>ExamineeHeaderSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1650813924" onClick='toggleBox("Output-1650813924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650813924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650813924">
+Type : 9780923465 in PhoneNumber_Textbox textbox  <br/>
+Click on : Exam_Information<br/>
+Click on : Exam_Information<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.HeaderSectionTc()'><b>HeaderSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1614133563" onClick='toggleBox("Output-1614133563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1614133563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1614133563">
+Type : 9780923465 in PhoneNumber_Textbox textbox  <br/>
+Click on : Exam_Information<br/>
+Click on : Exam_Information<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ImoFormSaveTc()'><b>ImoFormSaveTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1658980982" onClick='toggleBox("Output-1658980982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658980982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658980982">
+Click on : Imo tab<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : click_Validation_link<br/>
+Click on : Select Acceptable Clinical Evidence tab<br/>
+Click on : Select_Checkbox1<br/>
+Click on : Select_Checkbox2<br/>
+Click on : Select_Checkbox3<br/>
+Click on : click_next_button<br/>
+Click on : Select_Checkbox1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Other textbox  <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Comments textbox  <br/>
+Click on : click_next_button<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ManualAddDBQTc()'><b>ManualAddDBQTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-404222443" onClick='toggleBox("Output-404222443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-404222443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-404222443">
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Confirm<br/>
+Click on : Click_DBQ_Ok<br/>
+Click on : MANUAL_DBQ_TAB<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Manual Validation link<br/>
+Click on : C&P Examination<br/>
+Type : Testing in Text Comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Review of available records<br/>
+Click on : Review of available records in conjunction<br/>
+Click on : Examination via approved video telehealth<br/>
+Click on : click_next_button<br/>
+Type : Testing in Evidence comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Click on : Select GERD<br/>
+Click on : Select Hiatal Hernia<br/>
+Click on : Esophagus,Stricture of<br/>
+Click on : Esophagus, Spasm of (cardiospasm)<br/>
+Click on : Esophagus, Diverticulum of, Acquired <br/>
+Click on : Other Esophageal Condition(s)<br/>
+Type : ICD711 in ICD Code 1 textbox  <br/>
+Type : ICD712 in ICD Code 2 textbox  <br/>
+Type : ICD713 in ICD Code 3 textbox  <br/>
+Type : ICD714 in ICD Code 4 textbox  <br/>
+Type : ICD715 in ICD Code 5 textbox  <br/>
+Type : 17/02/2018 in Date of Diagnosis 1 textbox  <br/>
+Type : 19/04/2018 in Date of Diagnosis 2 textbox  <br/>
+Type : 15/08/2018 in Date of Diagnosis 3 textbox  <br/>
+Type : 23/04/2018 in Date of Diagnosis 4 textbox  <br/>
+Type : Testing in Other Diagnosis 1 textbox  <br/>
+Type : 4/11/18 in Date of Diagnosis 5 textbox  <br/>
+Type : Testing in Other Diagnosis 2 textbox  <br/>
+Type : ICD716 in Other ICD Code 1 textbox  <br/>
+Type : ICD717 in Other ICD Code 2 textbox  <br/>
+Type : 4/12/18 in Other Date of Diagnosis 1 textbox  <br/>
+Type : 15/08/2018 in Other Date of Diagnosis 2 textbox  <br/>
+Type : Testing in Additional Diagnosis textbox  <br/>
+Click on : click_next_button<br/>
+Type : sample Testing in DESCRIBE THE HISTORY textbox  <br/>
+Click on : VETERAN’S TREATMENT<br/>
+Type : Testing in DESCRIBE diagnosed condition textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select No<br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Click on : Select Mild<br/>
+Type : sample Test in Select Mild TEXT textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Type : sample Test in Description textbox  <br/>
+Click on : Select Yes<br/>
+Click on : Select No<br/>
+Type : sample Test in Location textbox  <br/>
+Type : 21 in Length textbox  <br/>
+Type : 45 in Width textbox  <br/>
+Type : sample Test in Comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Click on : Select UPPER ENDOSCOPY<br/>
+Type : 21/04/2018 in DATE TEXT_1 textbox  <br/>
+Type : sample Test in Results_Text1 textbox  <br/>
+Click on : Select UPPER GI RADIOGRAPHIC STUDIES<br/>
+Type : 3/12/17 in DATE TEXT_2 textbox  <br/>
+Type : sample Test in Results Text_2 textbox  <br/>
+Click on : Select ESOPHAGRAM<br/>
+Type : 18/09/2016 in DATE TEXT_3 textbox  <br/>
+Type : sample Test in Results Text_3 textbox  <br/>
+Click on : Select MRI<br/>
+Type : 19/08/2017 in DATE TEXT_4 textbox  <br/>
+Type : sample Test in Results Text_4 textbox  <br/>
+Click on : Select CT<br/>
+Type : 5/12/18 in DATE TEXT_5 textbox  <br/>
+Type : sample Test in Results Text_5 textbox  <br/>
+Click on : Select BIOSPY<br/>
+Type : sample Test in Select Specify site textbox  <br/>
+Type : 17/09/2018 in DATE TEXT_6 textbox  <br/>
+Type : sample Test in Results Text_6 textbox  <br/>
+Click on : Select OTHER<br/>
+Type : sample Test in Select Specify textbox  <br/>
+Type : 15/07/2018 in DATE TEXT_7 textbox  <br/>
+Type : sample Test in Results Text_7 textbox  <br/>
+Click on : Select HAS LABORATORY TESTING<br/>
+Click on : Select CBC<br/>
+Type : 18/07/2018 in Date of test textbox  <br/>
+Type : sample Test in Hemoglobin text textbox  <br/>
+Type : sample Test in Hematocrit text textbox  <br/>
+Type : sample Test in White blood cell count text textbox  <br/>
+Type : 530 in Platelets text textbox  <br/>
+Click on : Select HELICOBACTER PYLORI<br/>
+Type : 27/08/2018 in Date of test textbox  <br/>
+Type : sample Test in Results Text textbox  <br/>
+Click on : Select Other,specify<br/>
+Type : sample Test in Other Description textbox  <br/>
+Type : 14/08/2018 in Date of test textbox  <br/>
+Type : sample Test in Results Text textbox  <br/>
+Click on : Select OTHER SIGNIFICANT<br/>
+Type : sample Test in Description Text textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Type : sample Test in Description textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select Yes<br/>
+Type : sample Test in Findings Text textbox  <br/>
+Click on : Select Yes<br/>
+Click on : Select Yes<br/>
+Type : sample Test in Description Text textbox  <br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Provider Tab<br/>
+Click on : Other Pertinent Physical Findings<br/>
+Click on : Click NO<br/>
+Click on : Click Yes and it add Scar DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Confirm<br/>
+Click on : Click_DBQ_Ok<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.NavigateToFormTabsTc()'><b>NavigateToFormTabsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1493042329" onClick='toggleBox("Output-1493042329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1493042329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1493042329">
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Click_hamburg_icon<br/>
+Click on : Select_DBQ<br/>
+Click on : Hide Section panel<br/>
+Click on : View Section panel<br/>
+Click on : View All Section<br/>
+Click on : Navigate to Bottom of a page<br/>
+Click on : Navigate to Top of a page<br/>
+Click on : View One Section at a time<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ProviderClarifyQuestionTc()'><b>ProviderClarifyQuestionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1572442646" onClick='toggleBox("Output-1572442646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572442646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572442646">
+Click on : checkout_button<br/>
+Click on : Navigate to Urinary Clarifying Question<br/>
+Click on : Click on Clarifying Question Icon <br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon <br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : DataImportAndMappingQ Section<br/>
+Click on : Import History<br/>
+Click on : Import_History_No<br/>
+Click on : Import History<br/>
+Click on : Import_History_Yes<br/>
+Click on : Close Icon<br/>
+Click on : Navigate to IMO Clarifying Question<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Right_navigate<br/>
+Click on : Scar Miscellaneous section<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Right_navigate<br/>
+Click on : Esophagus Remarks Section<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click send to QA Button<br/>
+Type : Testing Message in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+</div>
+</td>
+<td></td>
+<td>114</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.ProviderFormSaveTc()'><b>ProviderFormSaveTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1815556070" onClick='toggleBox("Output-1815556070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815556070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815556070">
+Click on : checkout_button<br/>
+status changed successfully<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Provider ValidationLink1<br/>
+Click on : Provider ValidationLink2<br/>
+Click on : Acceptable Clinical Evidence tab<br/>
+Click on : Review of available records<br/>
+Click on : Review of available records in conjunction<br/>
+Click on : Examination via approved video telehealth<br/>
+Click on : click_next_button<br/>
+Click on : No records were reviewed<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Evidence comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : claimed_condition_Question1<br/>
+Click on : claimed_condition_Other_Question1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Other_comments1 textbox  <br/>
+Click on : claimed_condition_Question2<br/>
+Click on : claimed_condition_Other_Question2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Other_comments2 textbox  <br/>
+Click on : referred_condition_Question1<br/>
+Click on : referred_condition_Other_Question1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in Referred_Other_comments1 textbox  <br/>
+Click on : referred_condition_Question2<br/>
+Click on : referred_condition_Other_Question2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in referred_condition_Other_Question2 textbox  <br/>
+Click on : established_condition_Question1<br/>
+Click on : established_condition_Other_Question1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in established_Other_comments1 textbox  <br/>
+Click on : established_condition_Question2<br/>
+Click on : established_condition_Other_Question2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in established_condition_Other_Question2 textbox  <br/>
+Click on : click_yes<br/>
+Type : bloody urine test in TextBox_Diagnosis1 textbox  <br/>
+Type : cloudy urine test  in TextBox_Diagnosis2 textbox  <br/>
+Type : 2345 in TextBox_ICD_code1 textbox  <br/>
+Type : 15/04/2018 in TextBox_Date_of_Diagnosis1 textbox  <br/>
+Type : 4567 in TextBox_ICD_code2 textbox  <br/>
+Type : burning with urination test in TextBox_Diagnosis3 textbox  <br/>
+Type : 19/04/2018 in TextBox_Date_of_Diagnosis2 textbox  <br/>
+Type : 7890 in TextBox_ICD_code3 textbox  <br/>
+Type : 26/04/2018 in TextBox_Date_of_Diagnosis3 textbox  <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Additional_Diagnosis textbox  <br/>
+Click on : click_next_button<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Medical_History textbox  <br/>
+Click on : click_next_button<br/>
+Click on : click_yes<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Etiology of Voiding Dysfunction textbox  <br/>
+Click on : click_yes<br/>
+Click on : click_Other<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Other_Description textbox  <br/>
+Click on : click_yes<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Yes_Description textbox  <br/>
+Click on : click_yes<br/>
+Click on : Select_Checkbox1<br/>
+Click on : Select_Checkbox2<br/>
+Click on : Select_Checkbox3<br/>
+Click on : Select_Checkbox4<br/>
+Click on : Select_Checkbox5<br/>
+Click on : Select_Checkbox6<br/>
+Click on : click_yes<br/>
+Click on : Select_Checkbox1<br/>
+Click on : Select_Checkbox2<br/>
+Click on : Select_Checkbox3<br/>
+Click on : Select_Checkbox4<br/>
+Click on : Select_RadioButton1<br/>
+Click on : Select_RadioButton2<br/>
+Click on : Select_RadioButton3<br/>
+Click on : Select_RadioButton4<br/>
+Click on : Select_StructureDisease<br/>
+Click on : Select_Requires_dilatation<br/>
+Click on : Select_OtherSpecify<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherSpecify textbox  <br/>
+Click on : Select_Recurrent_urinary<br/>
+Click on : Select_Uroflowmetry<br/>
+Click on : Select_Post_void<br/>
+Click on : Select_obstructive<br/>
+Click on : Select_intermittent<br/>
+Click on : Select_continuous<br/>
+Click on : Select_OtherDescription<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton1<br/>
+Click on : Select_Checkbox1<br/>
+Click on : Select_Checkbox2<br/>
+Click on : Select_RadioButton2<br/>
+Click on : Select_Checkbox1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Diet textbox  <br/>
+Type : 19/05/2018 in TextBox_dates textbox  <br/>
+Click on : Select_Checkbox2<br/>
+Type : Test Drug therapy in TextBox_medication textbox  <br/>
+Type : 15/07/2018 in TextBox_dates_Use textbox  <br/>
+Click on : Select_Checkbox_Invasive<br/>
+Click on : Select_Year<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Name_Of_Facility textbox  <br/>
+Click on : Select_RadioButton3<br/>
+Click on : Select_Bladder_pain<br/>
+Click on : Select_Dysuria<br/>
+Click on : Select_Hematuria<br/>
+Click on : Select_Voiding_dysfunction<br/>
+Click on : Select_Catheter_drainage<br/>
+Click on : Select_Drainage_Not_Required<br/>
+Click on : Select_Infections<br/>
+Click on : Select_infection_Noted<br/>
+Click on : Select_Sudden painful<br/>
+Click on : Select_OtherDescription<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Provide_Etiology textbox  <br/>
+Click on : Select_Long-term<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_medications textbox  <br/>
+Click on : Select_Hospitalization<br/>
+Click on : Select_RadioButton_Year<br/>
+Click on : Select_drainage<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_drain_past textbox  <br/>
+Click on : Select_Continuous<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Continuous textbox  <br/>
+Click on : Select_Intermittent<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Intermittent textbox  <br/>
+Click on : Select_OtherDescription<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton_Yes1<br/>
+Click on : Select_RadioButton_Yes2<br/>
+Click on : Select_RadioButton_Yes3<br/>
+Click on : Select_RadioButton_Yes4<br/>
+Click on : Select_RadioButton_Yes5<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : Select_RadioButton_Yes5<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : Select_RadioButton_Yes5<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_OtherDescription textbox  <br/>
+Click on : Select_RadioButton_no<br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton_Yes1<br/>
+Click on : Select_RadioButton_MALIGNANT<br/>
+Click on : Select_RadioButton_remission<br/>
+Click on : Select_RadioButton_Yes2<br/>
+Click on : Select_Treatment<br/>
+Click on : Select_Surgery<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_SurgeryDescription textbox  <br/>
+Type : 7/12/18 in TextBox_SurgeryDate textbox  <br/>
+Click on : Select_Radiation<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_RadiationDescription textbox  <br/>
+Type : 9/11/18 in TextBox_RadiationDate textbox  <br/>
+Click on : Select_Antineoplastic<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_AntineoplasticDescription textbox  <br/>
+Type : 9/11/18 in TextBox_AntineoplasticDate textbox  <br/>
+Click on : Select_procedure<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_procedureDescription textbox  <br/>
+Type : 18/07/2018 in TextBox_procedureDate textbox  <br/>
+Click on : Select_treatment<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_treatmentDescription textbox  <br/>
+Type : 18/05/2018 in TextBox_treatmentDate textbox  <br/>
+Click on : Select_RadioButton_Yes2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_VETERANConitions textbox  <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_VETERANDescription textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton_Yes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Description textbox  <br/>
+Click on : Select_RadioButton_Yes2<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton_Yes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Description textbox  <br/>
+Click on : click_next_button<br/>
+Click on : Select_RadioButton_Yes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_Description textbox  <br/>
+Click on : click_next_button<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_RemarksDescription1 textbox  <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_RemarksDescription2 textbox  <br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_RemarksDescription3 textbox  <br/>
+Click on : Select_RadioButton_Yes1<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_identified textbox  <br/>
+Click on : Select_RadioButton_Yes2<br/>
+Click on : Select_RadioButton_Yes3<br/>
+Type : There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words in TextBox_RemarksDescription4 textbox  <br/>
+Click on : Select_RadioButton_Yes3<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : click_Validation_link<br/>
+Click on : Select_RadioButton_Yes3<br/>
+Click on : Click_Ok<br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Trigger DBQ ValidationLink1<br/>
+Click on : Trigger DBQ ValidationLink2<br/>
+Click on : Acceptable Clinical Evidence tab<br/>
+Type : Sample Text in Comments textbox  <br/>
+Click on : click_next_button<br/>
+Click on : click_next_button<br/>
+Click on : click_next_button<br/>
+Click on : Click_RadioButton_yes<br/>
+Type : Sample Text1 in Diagnosis_textbox1 textbox  <br/>
+Type : IF61 in ICD_Code_textbox1 textbox  <br/>
+Type : Sample Text2 in Diagnosis_textbox2 textbox  <br/>
+Type : 22/03/2017 in Diagnosis_textbox1 textbox  <br/>
+Type : IF62 in ICD_Code_textbox2 textbox  <br/>
+Type : Sample Text3 in Diagnosis_textbox3 textbox  <br/>
+Type : 26/03/2017 in Diagnosis_textbox2 textbox  <br/>
+Type : IF63 in ICD_Code_textbox3 textbox  <br/>
+Type : 3/2/17 in Diagnosis_textbox3 textbox  <br/>
+Type : Sample Text in Additional_Diagnosis_textbox textbox  <br/>
+Click on : click_next_button<br/>
+Type : Sample Text in Click_History_Description textbox  <br/>
+Click on : Are any of the scars of the trunk or extremities painful?<br/>
+Click on : Select_Number of painful scars<br/>
+Type : Sample Text in Describe the pain textbox  <br/>
+Click on : Select scar unstable<br/>
+Click on : Select Number of scar unstable<br/>
+Type : Sample Text in Describe the loss of covering of skin textbox  <br/>
+Click on : Any of the scars due to  trunk or extremities<br/>
+Type : Sample Text in Burn scar2 textbox  <br/>
+Click on : Deep partial Thickness<br/>
+Type : Sample Text in Burn scar1 textbox  <br/>
+Click on : Full thickness<br/>
+Click on : Affected<br/>
+Type : Sample Text in Scar_Location textbox  <br/>
+Click on : Linear<br/>
+Type : 25 in SCAR_ONE textbox  <br/>
+Click on : Superficial non-linear<br/>
+Click on : Deep<br/>
+Click on : Deep_NonLinearOne<br/>
+Click on : Linear1<br/>
+Click on : Superficial non-linear1<br/>
+Click on : Deep1<br/>
+Click on : Linear2<br/>
+Click on : Superficial non-linear2<br/>
+Click on : Deep2<br/>
+Click on : Linear3<br/>
+Click on : Superficial non-linear3<br/>
+Click on : Deep3<br/>
+Click on : Linear4<br/>
+Click on : Superficial non-linear4<br/>
+Click on : Deep4<br/>
+Click on : Superficial non-linear scar<br/>
+Click on : Deep non-linear scar<br/>
+Click on : click_next_button<br/>
+Type : Sample Text in Describe the history textbox  <br/>
+Click on : Any of the scar painful<br/>
+Click on : Number of painful scar<br/>
+Type : Sample Text in Describe the pain textbox  <br/>
+Click on : Are any of the scars of the head<br/>
+Click on : number of unstable <br/>
+Type : Sample Text in Describe the loss of covering of skin over the scar textbox  <br/>
+Click on : Are any of the scars of the head<br/>
+Type : Sample Text in Burn scar1 textbox  <br/>
+Click on : Deep partial thickness<br/>
+Click on : SCAR1<br/>
+Type : Sample Text in Location of scar/disfigurement1 textbox  <br/>
+Type : Sample Text in Length of scar/disfigurement1 textbox  <br/>
+Type : Sample Text in Width of scar/disfigurement1 textbox  <br/>
+Click on : SCAR2<br/>
+Type : Sample Text in Location of scar/disfiguremen2 textbox  <br/>
+Type : Sample Text in Length of scar/disfigurement2 textbox  <br/>
+Type : Sample Text in Width of scar/disfigurement2 textbox  <br/>
+Click on : SCAR3<br/>
+Type : Sample Text in Location of scar/disfigurement3 textbox  <br/>
+Type : Sample Text in Length of scar/disfigurement3 textbox  <br/>
+Type : Sample Text in Width of scar/disfigurement3 textbox  <br/>
+Click on : SCAR4<br/>
+Type : Sample Text in Location of scar/disfigurement4 textbox  <br/>
+Type : Sample Text in Length of scar/disfigurement4 textbox  <br/>
+Type : Sample Text in Width of scar/disfigurement4 textbox  <br/>
+Click on : SCAR5<br/>
+Type : Sample Text in Location of scar/disfigurement5 textbox  <br/>
+Type : Sample Text in Length of scar/disfigurement5 textbox  <br/>
+Type : Sample Text in Width of scar/disfigurement5 textbox  <br/>
+Click on : Is there elevation<br/>
+Click on : Is there abnormal pigmentation<br/>
+Click on : Is there gross distortion<br/>
+Click on : click_next_button<br/>
+Click on : DO ANY OF THE SCARS (regardless of location) OR DISFIGUREMENT<br/>
+Type : Sample Text in SPECIFIC LIMITATIONS textbox  <br/>
+Click on : VETERAN HAVE ANY OTHER PERTINENT<br/>
+Type : Sample Text in DESCRIPTION textbox  <br/>
+Click on : Photographs_Provided<br/>
+Click on : Click Yes<br/>
+Type : Sample Text in DESCRIPTION textbox  <br/>
+Click on : click_SignAndSubmit_button<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : click_SignAndSubmit_button<br/>
+</div>
+</td>
+<td></td>
+<td>207</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.addTriggerwithValidationTc()'><b>addTriggerwithValidationTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1059634518" onClick='toggleBox("Output-1059634518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059634518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059634518">
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:Provider In Progress<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Provider Tab<br/>
+Click on : Other Pertinent Physical Findings<br/>
+Click on : Click NO<br/>
+Click on : Click Yes and it add Scar DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Confirm<br/>
+Click on : Click_DBQ_Ok<br/>
+Clear on : TextBox_Description<br/>
+Click on : Imo tab<br/>
+Click on : click_next_button<br/>
+Clear on : TextBox_Other<br/>
+Click on : Click Prev button<br/>
+Click on : Scar Miscellaneous section<br/>
+Clear on : SPECIFIC LIMITATIONS<br/>
+Click on : Esophagus Remarks Section<br/>
+Clear on : Findings Text<br/>
+Click on : Click Manual Sign button<br/>
+Click on : Urinary validation link<br/>
+Type : sample text in TextBox_Description textbox  <br/>
+Click on : Click on Clarifying Question Icon <br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon <br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click Manual Sign button<br/>
+Click on : IMO validation link<br/>
+Type : Testing in TextBox_Other textbox  <br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click Manual Sign button<br/>
+Click on : Scar validation link<br/>
+Type : sample text in SPECIFIC LIMITATIONS textbox  <br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click Manual Sign button<br/>
+Click on : Esophagus validation link<br/>
+Type : sample text in Findings Text textbox  <br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click on Clarifying Question Icon<br/>
+Click on : Change History Link <br/>
+Click on : Clarifying Question Link <br/>
+Type : sample text in Enter Clarifying Question text textbox  <br/>
+Click on : Clarifying Question Save Button<br/>
+Comments Saved Successfully<br/>
+Click on : Clarifying Question Close Button<br/>
+Click on : Click Manual Sign button<br/>
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:QA In Progress<br/>
+Click on : Navigate to Urinary Clarifying Question<br/>
+Click on : Navigate to IMO Clarifying Question<br/>
+Click on : Navigate to SCAR Clarifying Question<br/>
+</div>
+</td>
+<td></td>
+<td>151</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decAddDBQTc()'><b>decAddDBQTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1822525972" onClick='toggleBox("Output-1822525972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1822525972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1822525972">
+Click on : checkout_button<br/>
+Click on : click_DataImportAndMappingQ section tab<br/>
+Click on : Trigger add DBQ<br/>
+Click on : Trigger add DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Confirm<br/>
+Click on : Click_Ok<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decDeleteAddFormsTc()'><b>decDeleteAddFormsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-800735172" onClick='toggleBox("Output-800735172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-800735172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-800735172">
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Urinary_Tab<br/>
+Click on : click_DataImportAndMappingQ section tab<br/>
+Click on : Trigger remove DBQ<br/>
+Click on : Trigger remove DBQ<br/>
+Click on : Click_Ok<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decExamNoteTc()'><b>decExamNoteTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1270836494" onClick='toggleBox("Output-1270836494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270836494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270836494">
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Expand_ExamNotesLink<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Click_NotesLink1<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_NotesLink2<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_UncheckNotes1<br/>
+Click on : Click_UncheckNotes2<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decHeaderSectionTc()'><b>decHeaderSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-409195262" onClick='toggleBox("Output-409195262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-409195262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-409195262">
+Type : 9780923465 in PhoneNumber_Textbox textbox  <br/>
+Click on : Exam_Information<br/>
+Click on : Exam_Information<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decNavigateFormAndSectionTc()'><b>decNavigateFormAndSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1067599825" onClick='toggleBox("Output-1067599825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1067599825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1067599825">
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Click_hamburg_icon<br/>
+Click on : Hide Section panel<br/>
+Click on : Show Section panel<br/>
+Click on : View All Section<br/>
+Click on : Navigate to Bottom of a page<br/>
+Click on : Navigate to Top of a page<br/>
+Click on : View All Section<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decRoleButtonsTc()'><b>decRoleButtonsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1245065720" onClick='toggleBox("Output-1245065720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1245065720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1245065720">
+Click on : Click Save Button<br/>
+Form Saved successfully<br/>
+Click on : Click on Submit button<br/>
+Form Saved successfully<br/>
+status:DEC Submit<br/>
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:DEC InProgress<br/>
+Click on : Submit and Lock button<br/>
+status changed successfully<br/>
+status:DEC Complete<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamAllForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQAllForm print<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.decSaveAddFormTc()'><b>decSaveAddFormTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1696263571" onClick='toggleBox("Output-1696263571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1696263571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1696263571">
+Click on : CLAIMANT TREATMENT<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in CLAIMANT TREATMENT TEXT textbox  <br/>
+Click on : CLICK NEXT<br/>
+Type : sample text in Textbox textbox  <br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Textarea textbox  <br/>
+Type : 19/05/2018 in Calander textbox  <br/>
+Click on : CheckBox<br/>
+Click on : Radio button<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.examineeTc()'><b>examineeTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1139814130" onClick='toggleBox("Output-1139814130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139814130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139814130">
+Click on : checkout_button<br/>
+Click on : DOES THE CLAIMANT HAVE A BENIGN<br/>
+Click on : HAS THE CLAIMANT COMPLETED<br/>
+Click on : Treatment completed<br/>
+Click on : Surgery<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Surgery Description textbox  <br/>
+Type : 15/04/2018 in Surgery date textbox  <br/>
+Click on : Radiation therapy<br/>
+Type : 17/02/2018 in Date of most recent treatment textbox  <br/>
+Type : 19/03/2018 in completion date of treatment textbox  <br/>
+Click on : Antineoplastic chemotherapy<br/>
+Type : 14/04/2018 in Date of most recent treatment textbox  <br/>
+Type : 15/05/2018 in completion date of treatment textbox  <br/>
+Click on : Other therapeutic procedure<br/>
+Type : sample Text in Other describe procedure textbox  <br/>
+Type : 19/09/2018 in Date of Other describe procedure textbox  <br/>
+Click on : Other therapeutic procedure<br/>
+Type : sample testing text in Other describe procedure textbox  <br/>
+Type : 19/09/2018 in provide date of completion of treatment textbox  <br/>
+Type : Sample text for testing in condition begin text textbox  <br/>
+Type : Sample text for testing in Describe condition text textbox  <br/>
+Type : Sample text for testing in symptoms description text textbox  <br/>
+Type : Sample text for testing in Past medication text textbox  <br/>
+Type : Sample text for testing in current symptoms text textbox  <br/>
+Type : Sample text for testing in current treatment text textbox  <br/>
+Type : Sample text for testing in Impact of the condition text textbox  <br/>
+Type : Sample text for testing in condition begin text textbox  <br/>
+Type : Sample text for testing in Describe condition text textbox  <br/>
+Type : Sample text for testing in symptoms description text textbox  <br/>
+Type : Sample text for testing in Past medication text textbox  <br/>
+Type : Sample text for testing in current symptoms text textbox  <br/>
+Type : Sample text for testing in current treatment text textbox  <br/>
+Type : Sample text for testing in Impact of the condition text textbox  <br/>
+Click on : click_DataImportAndMappingQ section tab<br/>
+Type : Sample text for testing in textbox1 textbox  <br/>
+Type : Sample text for testing in textbox2 textbox  <br/>
+Type : Sample text for testing in textbox3 textbox  <br/>
+Type : Sample text for testing in textboxArea1 textbox  <br/>
+Type : Sample text for testing in textboxArea2 textbox  <br/>
+Type : Sample text for testing in textboxArea3 textbox  <br/>
+Click on : Checkbox<br/>
+Type : 17/08/2018 in Calander date textbox  <br/>
+Click on : Radio Button<br/>
+Click on : Trigger add DBQ<br/>
+Click on : Click_DBQ_Ok<br/>
+Click on : GALLBLADDER DBQ<br/>
+Click on : Yes<br/>
+Type : Sample text for testing in textArea textbox  <br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.navigateToExamineeFormTabsTc()'><b>navigateToExamineeFormTabsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1048098469" onClick='toggleBox("Output-1048098469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1048098469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1048098469">
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Click_hamburg_icon<br/>
+Click on : click_DataImportAndMappingQ section tab<br/>
+Click on : Trigger remove DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : click_next_button<br/>
+Click on : Checkbox<br/>
+Click on : Radio Button<br/>
+Type : 21/06/2018 in Calander date textbox  <br/>
+Click on : Checkbox<br/>
+Click on : Radio Button<br/>
+Type : 19/04/2018 in Calander date textbox  <br/>
+Click on : Hide Section panel<br/>
+Click on : View Section panel<br/>
+Click on : View_AllSection<br/>
+Click on : Navigate to Bottom of a page<br/>
+Click on : Navigate to Top of a page<br/>
+Click on : View_AllSection<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.qaCollabViewTc()'><b>qaCollabViewTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-749443480" onClick='toggleBox("Output-749443480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749443480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749443480">
+Click on : Click Collaboration View<br/>
+Click on : Click Track_Latest_Changes<br/>
+Click on : Expand Track_Latest_Changes Question <br/>
+Click on : Expand Track_Latest_Changes Question <br/>
+Click on : Navigate Track_Latest_Changes Question <br/>
+Click on : Click Track_All_Changes<br/>
+Click on : Expand Track_All_Changes Question<br/>
+Click on : Expand Track_All_Changes Question<br/>
+Click on : Navigate Track_All_Changes Question<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.qaExamNotesTc()'><b>qaExamNotesTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1338958728" onClick='toggleBox("Output-1338958728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338958728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338958728">
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Expand_ExamNotesLink<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Click_NotesLink1<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_NotesLink2<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_UncheckNotes1<br/>
+Click on : Click_UncheckNotes2<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.qaHeaderSectionTc()'><b>qaHeaderSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1850137076" onClick='toggleBox("Output-1850137076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1850137076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1850137076">
+Type : 9780923465 in PhoneNumber_Textbox textbox  <br/>
+Click on : Exam_Information<br/>
+Click on : Exam_Information<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.qaNavigateFormAndSectionTc()'><b>qaNavigateFormAndSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-88301993" onClick='toggleBox("Output-88301993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-88301993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-88301993">
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Click_hamburg_icon<br/>
+Click on : Select_DBQ<br/>
+Click on : Hide Section panel<br/>
+Click on : View Section panel<br/>
+Click on : View All Section<br/>
+Click on : Navigate to Bottom of a page<br/>
+Click on : Navigate to Top of a page<br/>
+Click on : View One Section at a time<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.qaRoleButtonsTc()'><b>qaRoleButtonsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1442038800" onClick='toggleBox("Output-1442038800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442038800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442038800">
+Click on : Click on Save Icon<br/>
+Form Saved successfully<br/>
+Click on : Esophagus Remarks Section<br/>
+Clear on : Findings Text<br/>
+Click on : Click Save Button<br/>
+Form Saved successfully<br/>
+Click on : Click on Diag Pending button<br/>
+Status Changed successfully<br/>
+Status: QA In Progress - Diag Pending<br/>
+Click on : Click on Consult Pending button<br/>
+Status Changed successfully<br/>
+Status: QA In Progress - Consult Pending<br/>
+Click on : Click on Send to provider button<br/>
+Click on : Click on 'Yes' in Validation error confirmation popup<br/>
+Click on : Click on Send to provider button<br/>
+Click on : Click on 'No' in Validation error confirmation popup<br/>
+Type : Test Question1 from QA in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click on Send to provider button<br/>
+Click on : Click on 'Yes' in Validation error confirmation popup<br/>
+Click on : Click on Send to provider button<br/>
+Click on : Click on 'No' in Validation error confirmation popup<br/>
+Type : Test Question1 from QA in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Status Changed successfully<br/>
+Status: Pending Provider Response<br/>
+Notes Saved successfully<br/>
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status: QA In Progress<br/>
+Click on : Click on Send For Approval button<br/>
+Click on : Click on 'Yes' in Validation error confirmation popup<br/>
+Click on : Click on Send For Approval button<br/>
+Click on : Click on 'No' in Validation error confirmation popup<br/>
+Type : Test Question2 from QA in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click on Send For Approval button<br/>
+Click on : Click on 'Yes' in Validation error confirmation popup<br/>
+Click on : Click on Send For Approval button<br/>
+Click on : Click on 'No' in Validation error confirmation popup<br/>
+Type : Test Question2 from QA in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Status Changed successfully<br/>
+Status: Pending Provider Response<br/>
+Notes Saved successfully<br/>
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status: QA In Progress<br/>
+Click on : Click Manual Sign button<br/>
+Click on : Esophagus validation link<br/>
+Type :  sample test question  in Findings Text textbox  <br/>
+Click on : Click on Submit button<br/>
+Click on : Click Ok on Signature pop<br/>
+Click on : Click Manual Sign button<br/>
+status changed successfully<br/>
+status: Pending Manual Signature<br/>
+Click on : Click on Clarifying Question tab<br/>
+Click on : Click on Clarifying Questions Print button<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamAllForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click AllHistoryForms print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQAllForm print<br/>
+</div>
+</td>
+<td></td>
+<td>175</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeAddDBQTc()'><b>scribeAddDBQTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-251520863" onClick='toggleBox("Output-251520863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251520863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251520863">
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:Provider In Progress<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_add_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Cancel<br/>
+Click on : Delete_Trigger_DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Provider Tab<br/>
+Click on : Other Pertinent Physical Findings<br/>
+Click on : Click NO<br/>
+Click on : Click Yes and it add Scar DBQ<br/>
+Click on : Click_Ok<br/>
+Click on : Click_Add_DBQ<br/>
+Select : ESOPHAGUS in DropDown_Add_DBQ dropdown list<br/>
+Click on : Click_Confirm<br/>
+Click on : Click_DBQ_Ok<br/>
+Clear on : TextBox_Description<br/>
+Click on : Imo tab<br/>
+Click on : click_next_button<br/>
+Clear on : TextBox_Other<br/>
+Click on : Click Prev button<br/>
+Click on : Scar Miscellaneous section<br/>
+Clear on : SPECIFIC LIMITATIONS<br/>
+Click on : Esophagus Remarks Section<br/>
+Clear on : Findings Text<br/>
+Click on : Click Manual Sign button<br/>
+Click on : Urinary validation link<br/>
+Type : sample text in TextBox_Description textbox  <br/>
+Click on : Click Manual Sign button<br/>
+Click on : IMO validation link<br/>
+Type : Testing in TextBox_Other textbox  <br/>
+Click on : Click Manual Sign button<br/>
+Click on : Scar validation link<br/>
+Type : sample text in SPECIFIC LIMITATIONS textbox  <br/>
+Click on : Click Manual Sign button<br/>
+Click on : Esophagus validation link<br/>
+Type : sample text in Findings Text textbox  <br/>
+Click on : Click Manual Sign button<br/>
+</div>
+</td>
+<td></td>
+<td>75</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeCollabViewTc()'><b>scribeCollabViewTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-548795052" onClick='toggleBox("Output-548795052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-548795052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-548795052">
+Click on : Click Collaboration View<br/>
+Click on : Expand Track_Latest_Changes Question <br/>
+Click on : Expand Track_Latest_Changes Question <br/>
+Click on : Navigate Track_Latest_Changes Question <br/>
+Click on : Click Track_All_Changes<br/>
+Click on : Expand Track_All_Changes Question<br/>
+Click on : Expand Track_All_Changes Question<br/>
+Click on : Navigate Track_All_Changes Question<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeExamNoteTc()'><b>scribeExamNoteTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1430199669" onClick='toggleBox("Output-1430199669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1430199669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430199669">
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:Provider In Progress<br/>
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_Add Notes1<br/>
+Type : The esophagus is the muscular tube that connects your throat to your stomach and the duodenum in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Expand_ExamNotesLink<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Cancel<br/>
+Click on : Click_AddNotes2<br/>
+Type :  the doctor might take small tissue samples using the endoscope.  in Add Notes textbox textbox  <br/>
+Click on : Click_Save&Close<br/>
+Click on : Click_NotesLink1<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_NotesLink2<br/>
+Click on : Click_Cancel<br/>
+Click on : Click_UncheckNotes1<br/>
+Click on : Click_UncheckNotes2<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeHeaderSectionTc()'><b>scribeHeaderSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-955611965" onClick='toggleBox("Output-955611965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-955611965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-955611965">
+Type : 9780923465 in PhoneNumber_Textbox textbox  <br/>
+Click on : Exam_Information<br/>
+Click on : Exam_Information<br/>
+Click on : Click on Save Icon<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeNavigateFormAndSectionTc()'><b>scribeNavigateFormAndSectionTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1118430673" onClick='toggleBox("Output-1118430673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1118430673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1118430673">
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Left_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Right_navigate<br/>
+Click on : Click_hamburg_icon<br/>
+Click on : Select_DBQ<br/>
+Click on : Hide Section panel<br/>
+Click on : View Section panel<br/>
+Click on : View All Section<br/>
+Click on : Navigate to Bottom of a page<br/>
+Click on : Navigate to Top of a page<br/>
+Click on : View One Section at a time<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+<tr>
+<td title='com.testcases.TestCases.scribeRoleButtonsTc()'><b>scribeRoleButtonsTc</b><br>Test class: com.testcases.TestCases<br/>
+<a href="#Output-1076202543" onClick='toggleBox("Output-1076202543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1076202543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1076202543">
+Click on : Click Save Button<br/>
+Form Saved successfully<br/>
+Click on : Click on Send to provider button<br/>
+status changed successfully<br/>
+status: Pending Provider Response<br/>
+Click on : checkout_button<br/>
+status changed successfully<br/>
+status:Scribe In Progress<br/>
+Click on : Click Manual Sign button<br/>
+status changed successfully<br/>
+status:Pending Manual Signature<br/>
+Click on : checkout_button<br/>
+Click on : Click on Pending Scribe button<br/>
+status changed successfully<br/>
+status: Pending Scribe<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click ExamAllForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click AllHistoryForms print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQForm print<br/>
+Click on : Click print Button<br/>
+Click on : Click DBQAllForm print<br/>
+</div>
+</td>
+<td></td>
+<td>118</td>
+<td>com.testcases.TestCases@3bfdc050</td></tr>
+</table><p>
+</body>
+</html>

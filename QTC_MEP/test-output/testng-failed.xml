@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.TestCases">
+        <methods>
+          <include name="ImoFormSaveTc"/>
+          <include name="qaRoleButtonsTc"/>
+          <include name="ProviderFormSaveTc"/>
+          <include name="NavigateToFormTabsTc"/>
+          <include name="qaHeaderSectionTc"/>
+          <include name="scribeAddDBQTc"/>
+          <include name="scribeCollabViewTc"/>
+          <include name="scribeRoleButtonsTc"/>
+          <include name="scribeHeaderSectionTc"/>
+          <include name="ManualAddDBQTc"/>
+          <include name="scribeNavigateFormAndSectionTc"/>
+          <include name="qaExamNotesTc"/>
+          <include name="Start"/>
+          <include name="ExambuttonsTc"/>
+          <include name="qaCollabViewTc"/>
+          <include name="scribeExamNoteTc"/>
+          <include name="ProviderClarifyQuestionTc"/>
+          <include name="addTriggerwithValidationTc"/>
+          <include name="qaNavigateFormAndSectionTc"/>
+        </methods>
+      </class> <!-- com.testcases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

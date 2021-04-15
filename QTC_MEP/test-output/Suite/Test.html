@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 31 08:50:10 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>132 seconds (132320 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.testcases.TC01()'><b>TC01</b><br>Test class: com.testcases.testcases<br/>
+<a href="#Output-12421331" onClick='toggleBox("Output-12421331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12421331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12421331">
+Type 3000 in Home values textbox  <br/>
+Type 40000 in Loan Amount textbox  <br/>
+Type 5 in Interest Rate textbox  <br/>
+Type 3 in Loan Terms textbox  <br/>
+Select Dec in Month dropdown list<br/>
+Select 2014 in Year dropdown list<br/>
+Verified that Expected values : Get Today's Best Mortgage Rates is matched with Actual values : Get Today's Best Mortgage Rates<br/>
+Click on : Calculate<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.testcases.testcases@817d6</td></tr>
+<tr>
+<td title='com.testcases.testcases.TC02()'><b>TC02</b><br>Test class: com.testcases.testcases<br/>
+<a href="#Output-5134505" onClick='toggleBox("Output-5134505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5134505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5134505">
+Type 50000 in Home values textbox  <br/>
+Type 9000 in Loan Amount textbox  <br/>
+Type 4 in Interest Rate textbox  <br/>
+Type 2 in Loan Terms textbox  <br/>
+Select Jan in Month dropdown list<br/>
+Select 2015 in Year dropdown list<br/>
+Verified that Expected values : Get Today's Best Mortgage Rates is matched with Actual values : Get Today's Best Mortgage Rates<br/>
+Click on : Calculate<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.testcases.testcases@817d6</td></tr>
+<tr>
+<td title='com.testcases.testcases.TC03()'><b>TC03</b><br>Test class: com.testcases.testcases<br>Parameters: 4000, 3000, 4, 3, Dec, 2015<br/>
+<a href="#Output-7054061" onClick='toggleBox("Output-7054061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7054061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7054061">
+Type 4000 in Home values textbox  <br/>
+Type 3000 in Loan Amount textbox  <br/>
+Type 4 in Interest Rate textbox  <br/>
+Type 3 in Loan Terms textbox  <br/>
+Select Dec in Month dropdown list<br/>
+Select 2015 in Year dropdown list<br/>
+Verified that Expected values : Get Today's Best Mortgage Rates is matched with Actual values : Get Today's Best Mortgage Rates<br/>
+Click on : Calculate<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.testcases.testcases@817d6</td></tr>
+</table><p>
+</body>
+</html>
